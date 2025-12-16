@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btnGoToMiniApp = findViewById<Button>(R.id.btnGoToMiniApp)
         btnGoToMiniApp.setOnClickListener(View.OnClickListener {
             // Thay "__UNI__04E3A11" bằng AppID của bạn
-            DCUniMPSDK.getInstance().openUniMP(this, "__UNI__G56F9CE0")
+            DCUniMPSDK.getInstance().openUniMP(this, "__UNI__GF90DA31")
         })
     }
 }
